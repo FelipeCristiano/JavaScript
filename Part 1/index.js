@@ -1,13 +1,10 @@
-console.log('Testing HTML')
+console.log('This message only appears in Element Inspection Console log.')
 
-// alert('Test 2') // Alert is not identified by Node.
+alert('This is an Alert.') // Alert is not identified by Node.
 
-let name
-name = 'Felipe' 
-console.log(name)
+let num1 = prompt('Type one number:')
+let num2 = prompt('Type another number')
+num1 = Number(num1)
+num2 = Number(num2)
 
-const numOne = 78
-const numTwo = 86
-let result = numOne * numTwo
-console.log('The operation result is' + result)
-console.log(`The operation result is ${result}`)
+alert(`The sum of the numbers is: ${num1 + num2}`)
