@@ -1,4 +1,4 @@
-let firstName = 'Felipe' 
+let firstName = 'Felipe'
 console.log(firstName)
 
 const numOne = 10
