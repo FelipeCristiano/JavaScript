@@ -12,22 +12,25 @@ console.log(root(9))
 const personOne = {
     name: 'Felipe',
     surname: 'Cristiano',
-    age: 25
+    age: 25,
+
+    addAge() {
+        this.age++
+    }
 }
 console.log(personOne.name)
 console.log(personOne.surname)
 console.log(personOne.age)
-console.log(personOne)
 
 
 function personCreator (name, surname, age) {
-    return{
-        name: name,
-        surname: surname,
-        age: age
-    }
+    return{name, surname, age}
 }
 const personTwo = personCreator('Lia', 'Eduarda', 27)
-const personThree = personCreator('Tiago', 'Linhares', 27)
+const personThree = personCreator('Tiago', 'Linhares', 24)
 console.log(personTwo)
 console.log(personThree)
+personOne.addAge()
+console.log(personOne.age)
+
+
