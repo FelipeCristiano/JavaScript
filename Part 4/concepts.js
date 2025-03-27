@@ -10,5 +10,11 @@ if (time >= 0 && time <= 11) {
 } else if (time >= 12 && time <= 17) {
     console.log('Good Afternoon')
 } else {
-    console.log('Good Evening')
+    console.log('Good Night')
+}
+
+if (true) {
+    console.log('True')
+} else {
+    console.log('False')
 }
